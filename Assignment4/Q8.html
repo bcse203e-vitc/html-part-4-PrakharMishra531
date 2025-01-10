@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Quiz Submission Form</title>
+  </head>
+  <body>
+    <h1>Online Quiz Submission Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+
+      <label>Question 1: Who is the best competitve programmer in the world right now?</label>
+      <br />
+      <label for="q1-option1">Tourist</label>
+      <input type="radio" id="q1-option1" name="q1" value="paris" required />
+
+      <label for="q1-option2">Dominator</label>
+      <input type="radio" id="q1-option2" name="q1" value="london" />
+
+      <label for="q1-option3">Errichtos</label>
+      <input type="radio" id="q1-option3" name="q1" value="berlin" />
+      <br /><br />
+
+      <label
+        >Question 2: Which of the following are programming languages? (Select
+        all that apply)</label
+      >
+      <br />
+      <label for="q2-option1">Python</label>
+      <input type="checkbox" id="q2-option1" name="q2" value="python" />
+
+      <label for="q2-option2">HTML</label>
+      <input type="checkbox" id="q2-option2" name="q2" value="html" />
+
+      <label for="q2-option3">Java</label>
+      <input type="checkbox" id="q2-option3" name="q2" value="java" />
+      <br /><br />
+
+      <label
+        >Question 3: What is the meaning of kernel in Operating System?</label
+      >
+      <br />
+      <label for="q3-option1">3</label>
+      <input type="radio" id="q3-option1" name="q3" value="3" required />
+
+      <label for="q3-option2">4</label>
+      <input type="radio" id="q3-option2" name="q3" value="4" />
+
+      <label for="q3-option3">5</label>
+      <input type="radio" id="q3-option3" name="q3" value="5" />
+      <br /><br />
+
+      <label for="timer">Time Remaining:</label>
+      <input type="text" id="timer" name="timer" placeholder="10:00" readonly />
+      <br /><br />
+
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </body>
+</html>
