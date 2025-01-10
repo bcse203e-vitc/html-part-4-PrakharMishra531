@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application - Work Experience</title>
+  </head>
+  <body>
+    <h1>Job Application Form</h1>
+    <h2>Page 3: Work Experience</h2>
+    <form action="Q4.4.html" method="get">
+      <label for="company">Company Name:</label>
+      <input type="text" id="company" name="company" required />
+      <br /><br />
+
+      <label for="designation">Designation:</label>
+      <input type="text" id="designation" name="designation" required />
+      <br /><br />
+
+      <label for="duration">Duration:</label>
+      <input
+        type="text"
+        id="duration"
+        name="duration"
+        placeholder="e.g., 2 years"
+        required
+      />
+      <br /><br />
+
+      <label for="resume">Upload Resume:</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" />
+      <br /><br />
+
+      <button type="submit">Submit</button>
+      <button type="button" onclick="window.location.href='Q4.2.html'">
+        Previous
+      </button>
+    </form>
+  </body>
+</html>

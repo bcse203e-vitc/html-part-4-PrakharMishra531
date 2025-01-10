@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customizable Form Template</title>
+  </head>
+  <body>
+    <h1>Customizable Form Template</h1>
+    <form>
+      <label for="formname">Form Name:</label>
+      <input type="text" id="formname" name="formname" required />
+      <br /><br />
+
+      <label for="numfields">Number of Input Fields:</label>
+      <input type="number" id="numfields" name="numfields" min="1" required />
+      <br /><br />
+
+      <label>Field Types and Labels:</label>
+      <br />
+      <label for="field1type">Field 1 Type:</label>
+      <select id="field1type" name="field1type" required>
+        <option value="text">Text</option>
+        <option value="email">Email</option>
+        <option value="number">Number</option>
+        <option value="date">Date</option>
+      </select>
+      <label for="field1label">Field 1 Label:</label>
+      <input type="text" id="field1label" name="field1label" required />
+      <br /><br />
+
+      <label for="field2type">Field 2 Type:</label>
+      <select id="field2type" name="field2type">
+        <option value="text">Text</option>
+        <option value="email">Email</option>
+        <option value="number">Number</option>
+        <option value="date">Date</option>
+      </select>
+      <label for="field2label">Field 2 Label:</label>
+      <input type="text" id="field2label" name="field2label" />
+      <br /><br />
+
+      <label for="field3type">Field 3 Type:</label>
+      <select id="field3type" name="field3type">
+        <option value="text">Text</option>
+        <option value="email">Email</option>
+        <option value="number">Number</option>
+        <option value="date">Date</option>
+      </select>
+      <label for="field3label">Field 3 Label:</label>
+      <input type="text" id="field3label" name="field3label" />
+      <br /><br />
+
+      <label>Preview of Form:</label>
+      <p>Will Generate</p>
+      <br /><br />
+
+      <button type="submit">Generate Form</button>
+    </form>
+  </body>
+</html>
